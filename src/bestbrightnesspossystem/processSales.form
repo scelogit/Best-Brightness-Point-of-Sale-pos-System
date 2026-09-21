@@ -3,10 +3,18 @@
 <Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
+<<<<<<< HEAD
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
     <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+=======
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
   </SyntheticProperties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
@@ -49,7 +57,11 @@
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
           <Color blue="33" green="0" red="0" type="rgb"/>
+=======
+          <Color blue="ff" green="99" red="33" type="rgb"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         </Property>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="0" red="0" type="rgb"/>
@@ -62,7 +74,11 @@
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
+<<<<<<< HEAD
                       <Component id="jButton6" pref="165" max="32767" attributes="0"/>
+=======
+                      <Component id="btnSalesOverview" pref="165" max="32767" attributes="0"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                       <Component id="BtnSMA" max="32767" attributes="0"/>
                       <Component id="jButton4" max="32767" attributes="0"/>
                   </Group>
@@ -78,7 +94,11 @@
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="BtnSMA" min="-2" pref="45" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
+<<<<<<< HEAD
                   <Component id="jButton6" min="-2" pref="40" max="-2" attributes="0"/>
+=======
+                  <Component id="btnSalesOverview" min="-2" pref="40" max="-2" attributes="0"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <EmptySpace pref="225" max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -91,6 +111,14 @@
               <Image iconType="3" name="/bestbrightnesspossystem/phothos/photos/sales.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Process Sale"/>
+<<<<<<< HEAD
+=======
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
@@ -102,25 +130,53 @@
               <Image iconType="3" name="/bestbrightnesspossystem/phothos/photos/delivery.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Staff Management"/>
+<<<<<<< HEAD
+=======
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnSMAActionPerformed"/>
           </Events>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JButton" name="jButton6">
+=======
+        <Component class="javax.swing.JButton" name="btnSalesOverview">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/bestbrightnesspossystem/phothos/photos/viewing.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Sales overview"/>
+<<<<<<< HEAD
           </Properties>
+=======
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSalesOverviewActionPerformed"/>
+          </Events>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         </Component>
       </SubComponents>
     </Container>
     <Container class="javax.swing.JPanel" name="jPanel2">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
           <Color blue="33" green="0" red="0" type="rgb"/>
+=======
+          <Color blue="ff" green="99" red="33" type="rgb"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         </Property>
       </Properties>
 
@@ -183,7 +239,11 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
+<<<<<<< HEAD
             <Property name="text" type="java.lang.String" value="\ud83d\udebd PROCESS SALE" containsInvalidXMLChars="true"/>
+=======
+            <Property name="text" type="java.lang.String" value="\ud83d\udebd Product Management" containsInvalidXMLChars="true"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
           </Properties>
         </Component>
       </SubComponents>

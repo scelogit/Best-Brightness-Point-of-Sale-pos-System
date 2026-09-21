@@ -8,6 +8,7 @@ package bestbrightnesspossystem;
  *
  * @author Scelo Thobani
  */
+<<<<<<< HEAD
 public class loading extends javax.swing.JFrame{
 
     /**
@@ -16,6 +17,16 @@ public class loading extends javax.swing.JFrame{
     public loading(Runnable onFinish) {
         initComponents();
         loading();
+=======
+public class loading extends javax.swing.JFrame {
+
+    /**
+     * Creates new form loading
+     * @param onFinish code to run once the progress bar reaches 100%
+     */
+    public loading(Runnable onFinish) {
+        initComponents();
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         setDefaultCloseOperation(javax.swing.JFrame.DISPOSE_ON_CLOSE);
         pack();
         setLocationRelativeTo(null);
@@ -24,7 +35,11 @@ public class loading extends javax.swing.JFrame{
 
     
     @SuppressWarnings("unchecked")
+<<<<<<< HEAD
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+=======
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -68,8 +83,13 @@ public class loading extends javax.swing.JFrame{
                 .addContainerGap(60, Short.MAX_VALUE))
         );
 
+<<<<<<< HEAD
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
+=======
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -78,6 +98,7 @@ public class loading extends javax.swing.JFrame{
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
+<<<<<<< HEAD
     }// </editor-fold>//GEN-END:initComponents
 private void loading() {
     new Thread(new Runnable() {
@@ -96,14 +117,47 @@ private void loading() {
 }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+=======
+    }// </editor-fold>                        
+
+    private void startLoading(Runnable onFinish) {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    for (int i = 0; i <= 100; i++) {
+                        final int value = i;
+                        javax.swing.SwingUtilities.invokeLater(() -> jProgressBar1.setValue(value));
+                        Thread.sleep(20);
+                    }
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+                javax.swing.SwingUtilities.invokeLater(() -> {
+                    dispose();
+                    if (onFinish != null) {
+                        onFinish.run();
+                    }
+                });
+            }
+        }).start();
+    }
+
+    // Variables declaration - do not modify                     
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JProgressBar jProgressBar1;
+<<<<<<< HEAD
     // End of variables declaration//GEN-END:variables
 
     private void startLoading(Runnable onFinish) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
+=======
+    // End of variables declaration                   
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
 
 }

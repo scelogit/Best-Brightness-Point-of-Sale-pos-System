@@ -97,15 +97,22 @@ public class Home extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+<<<<<<< HEAD
         jPanel1.setBackground(new java.awt.Color(0, 0, 51));
+=======
+        jPanel1.setBackground(new java.awt.Color(51, 153, 255));
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jLabel2.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Menu");
 
+<<<<<<< HEAD
         btnSignOut.setBackground(new java.awt.Color(0, 0, 51));
         btnSignOut.setForeground(new java.awt.Color(255, 255, 255));
+=======
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         btnSignOut.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bestbrightnesspossystem/log-out.png"))); // NOI18N
         btnSignOut.setText("Sign out");
         btnSignOut.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -120,10 +127,15 @@ public class Home extends javax.swing.JFrame {
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Admin");
 
+<<<<<<< HEAD
         btnProductManagement.setBackground(new java.awt.Color(0, 0, 51));
         btnProductManagement.setForeground(new java.awt.Color(255, 255, 255));
         btnProductManagement.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bestbrightnesspossystem/phothos/photos/delivery.png"))); // NOI18N
         btnProductManagement.setText("product management");
+=======
+        btnProductManagement.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bestbrightnesspossystem/phothos/photos/delivery.png"))); // NOI18N
+        btnProductManagement.setText("Product Management");
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         btnProductManagement.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnProductManagement.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -131,8 +143,11 @@ public class Home extends javax.swing.JFrame {
             }
         });
 
+<<<<<<< HEAD
         btnProdutc.setBackground(new java.awt.Color(0, 0, 51));
         btnProdutc.setForeground(new java.awt.Color(255, 255, 255));
+=======
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         btnProdutc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bestbrightnesspossystem/phothos/photos/viewing.png"))); // NOI18N
         btnProdutc.setText("Manage Staff");
         btnProdutc.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -142,8 +157,11 @@ public class Home extends javax.swing.JFrame {
             }
         });
 
+<<<<<<< HEAD
         btnViewSales.setBackground(new java.awt.Color(0, 0, 51));
         btnViewSales.setForeground(new java.awt.Color(255, 255, 255));
+=======
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         btnViewSales.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bestbrightnesspossystem/phothos/photos/viewing.png"))); // NOI18N
         btnViewSales.setText("view sales");
         btnViewSales.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -156,7 +174,11 @@ public class Home extends javax.swing.JFrame {
         jSeparator1.setBackground(new java.awt.Color(102, 102, 102));
         jSeparator1.setForeground(new java.awt.Color(153, 153, 153));
 
+<<<<<<< HEAD
         jPanel5.setBackground(new java.awt.Color(0, 0, 51));
+=======
+        jPanel5.setBackground(new java.awt.Color(51, 153, 255));
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
 
         jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
@@ -700,6 +722,10 @@ public class Home extends javax.swing.JFrame {
         );
 
         pack();
+<<<<<<< HEAD
+=======
+        setLocationRelativeTo(null);
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
     }// </editor-fold>//GEN-END:initComponents
     int One = 1;
     int Two = 2;
@@ -751,16 +777,23 @@ public class Home extends javax.swing.JFrame {
         // TODO add your handling code here:
         
          String tenderedText = JOptionPane.showInputDialog(this,
+<<<<<<< HEAD
         "Total due: R" + String.format("%.2f", totalDue) + "\nEnter amount tendered:",
         "Cash Payment", JOptionPane.QUESTION_MESSAGE);
         
         
         
         
+=======
+         "Total due: R" + String.format("%.2f", totalDue) + "\nEnter amount tendered:",
+         "Cash Payment", JOptionPane.QUESTION_MESSAGE);
+
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
            JOptionPane pane = new JOptionPane("Waiting for transaction...", JOptionPane.INFORMATION_MESSAGE, JOptionPane.DEFAULT_OPTION, null, new Object[]{});
            JDialog waitingDialog = pane.createDialog(this, "Processing");
            waitingDialog.setModal(false);
 
+<<<<<<< HEAD
     new javax.swing.SwingWorker<Void, Void>() {
         @Override
         protected Void doInBackground() throws Exception {
@@ -771,12 +804,34 @@ public class Home extends javax.swing.JFrame {
 
         @Override
         protected void done() {
+=======
+           new javax.swing.SwingWorker<Void, Void>()
+           {
+              @Override
+             protected Void doInBackground() throws Exception {
+            
+              Thread.sleep(2000); 
+              return null;
+           }
+
+        @Override
+        protected void done()
+        {
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
             waitingDialog.dispose();
             JOptionPane.showMessageDialog(theFrame(), "Transaction complete!");
         }
     }.execute();
 
+<<<<<<< HEAD
     waitingDialog.setVisible(true); 
+=======
+    waitingDialog.setVisible(true);
+    
+    Cart c =new Cart();
+    c.setVisible(true);
+    
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
 }
 
 private java.awt.Component theFrame() {

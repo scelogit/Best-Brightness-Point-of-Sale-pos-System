@@ -73,7 +73,11 @@ public class processSales extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jButton4 = new javax.swing.JButton();
         BtnSMA = new javax.swing.JButton();
+<<<<<<< HEAD
         jButton6 = new javax.swing.JButton();
+=======
+        btnSalesOverview = new javax.swing.JButton();
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         jPanel2 = new javax.swing.JPanel();
         jLabel21 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -89,12 +93,22 @@ public class processSales extends javax.swing.JFrame {
         btnRefresh = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+<<<<<<< HEAD
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 51));
+=======
+        setResizable(false);
+
+        jPanel1.setBackground(new java.awt.Color(51, 153, 255));
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         jPanel1.setForeground(new java.awt.Color(0, 0, 102));
 
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bestbrightnesspossystem/phothos/photos/sales.png"))); // NOI18N
         jButton4.setText("Process Sale");
+<<<<<<< HEAD
+=======
+        jButton4.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
@@ -103,14 +117,29 @@ public class processSales extends javax.swing.JFrame {
 
         BtnSMA.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bestbrightnesspossystem/phothos/photos/delivery.png"))); // NOI18N
         BtnSMA.setText("Staff Management");
+<<<<<<< HEAD
+=======
+        BtnSMA.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         BtnSMA.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnSMAActionPerformed(evt);
             }
         });
 
+<<<<<<< HEAD
         jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bestbrightnesspossystem/phothos/photos/viewing.png"))); // NOI18N
         jButton6.setText("Sales overview");
+=======
+        btnSalesOverview.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bestbrightnesspossystem/phothos/photos/viewing.png"))); // NOI18N
+        btnSalesOverview.setText("Sales overview");
+        btnSalesOverview.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        btnSalesOverview.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSalesOverviewActionPerformed(evt);
+            }
+        });
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -119,7 +148,11 @@ public class processSales extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(19, 19, 19)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+<<<<<<< HEAD
                     .addComponent(jButton6, javax.swing.GroupLayout.DEFAULT_SIZE, 165, Short.MAX_VALUE)
+=======
+                    .addComponent(btnSalesOverview, javax.swing.GroupLayout.DEFAULT_SIZE, 165, Short.MAX_VALUE)
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                     .addComponent(BtnSMA, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(20, 20, 20))
@@ -132,11 +165,19 @@ public class processSales extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(BtnSMA, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
+<<<<<<< HEAD
                 .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(225, Short.MAX_VALUE))
         );
 
         jPanel2.setBackground(new java.awt.Color(0, 0, 51));
+=======
+                .addComponent(btnSalesOverview, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(225, Short.MAX_VALUE))
+        );
+
+        jPanel2.setBackground(new java.awt.Color(51, 153, 255));
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
 
         jLabel21.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(255, 255, 255));
@@ -148,7 +189,11 @@ public class processSales extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+<<<<<<< HEAD
         jLabel1.setText("🚽 PROCESS SALE");
+=======
+        jLabel1.setText("🚽 Product Management");
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -283,6 +328,10 @@ public class processSales extends javax.swing.JFrame {
         );
 
         pack();
+<<<<<<< HEAD
+=======
+        setLocationRelativeTo(null);
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
@@ -311,6 +360,16 @@ public class processSales extends javax.swing.JFrame {
         table_update();
     }//GEN-LAST:event_btnRefreshActionPerformed
 
+<<<<<<< HEAD
+=======
+    private void btnSalesOverviewActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalesOverviewActionPerformed
+        // TODO add your handling code here:
+                salesOverview s = new salesOverview();
+                s.setVisible(true);
+                this.dispose();
+    }//GEN-LAST:event_btnSalesOverviewActionPerformed
+
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
    
     public static void main(String args[]) {
      
@@ -325,11 +384,18 @@ public class processSales extends javax.swing.JFrame {
     private javax.swing.JButton BtnSMA;
     private javax.swing.JButton btnAddProduct;
     private javax.swing.JButton btnRefresh;
+<<<<<<< HEAD
+=======
+    private javax.swing.JButton btnSalesOverview;
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
+<<<<<<< HEAD
     private javax.swing.JButton jButton6;
+=======
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel21;

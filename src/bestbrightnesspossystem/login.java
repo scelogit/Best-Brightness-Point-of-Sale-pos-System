@@ -42,10 +42,19 @@ public class login extends javax.swing.JFrame {
         txtUser_id = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
         jPassword = new javax.swing.JTextField();
+<<<<<<< HEAD
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 51));
+=======
+        cbPassword = new javax.swing.JCheckBox();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
+
+        jPanel1.setBackground(new java.awt.Color(51, 153, 255));
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         jPanel1.setLayout(null);
 
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -74,7 +83,11 @@ public class login extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btnLogin);
+<<<<<<< HEAD
         btnLogin.setBounds(70, 420, 260, 30);
+=======
+        btnLogin.setBounds(70, 450, 260, 30);
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bestbrightnesspossystem/best_brightness_logo_50px.png"))); // NOI18N
         jPanel1.add(jLabel4);
@@ -97,6 +110,7 @@ public class login extends javax.swing.JFrame {
 
         jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+<<<<<<< HEAD
         jLabel8.setText("------------Accounts--------------");
         jPanel1.add(jLabel8);
         jLabel8.setBounds(100, 350, 210, 16);
@@ -108,6 +122,19 @@ public class login extends javax.swing.JFrame {
         txtUser_id.setBounds(70, 192, 260, 30);
 
         jLabel5.setBackground(new java.awt.Color(255, 255, 255));
+=======
+        jLabel8.setText("============Accounts=============");
+        jPanel1.add(jLabel8);
+        jLabel8.setBounds(70, 380, 260, 20);
+
+        jUser.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Admin", "Manager", "Cashier" }));
+        jPanel1.add(jUser);
+        jUser.setBounds(70, 410, 260, 30);
+        jPanel1.add(txtUser_id);
+        txtUser_id.setBounds(70, 192, 260, 30);
+
+        jLabel5.setBackground(new java.awt.Color(0, 0, 0));
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Staff ID");
         jPanel1.add(jLabel5);
@@ -115,6 +142,19 @@ public class login extends javax.swing.JFrame {
         jPanel1.add(jPassword);
         jPassword.setBounds(70, 310, 260, 30);
 
+<<<<<<< HEAD
+=======
+        cbPassword.setForeground(new java.awt.Color(255, 255, 255));
+        cbPassword.setText("Show Password");
+        cbPassword.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cbPasswordActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cbPassword);
+        cbPassword.setBounds(220, 350, 110, 20);
+
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -125,12 +165,20 @@ public class login extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 579, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 12, Short.MAX_VALUE))
         );
 
         pack();
+=======
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 591, Short.MAX_VALUE)
+        );
+
+        pack();
+        setLocationRelativeTo(null);
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
@@ -146,7 +194,11 @@ public class login extends javax.swing.JFrame {
             rs = (ResultSet) pst.executeQuery();
  
             if (rs.next()) {
+<<<<<<< HEAD
            JOptionPane.showMessageDialog(this, "user_id and Password matched and you succesfully loged in as " + rs.getString("user"));
+=======
+           JOptionPane.showMessageDialog(this, "user_id and Password matched and /n you succesfully loged in as " + rs.getString("user"));
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
 
            int roleIndex = jUser.getSelectedIndex();
            this.setVisible(false);
@@ -179,6 +231,19 @@ public class login extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtNameActionPerformed
 
+<<<<<<< HEAD
+=======
+    private void cbPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbPasswordActionPerformed
+        // TODO add your handling code here:
+        
+       /* if(cbPassword.isSelected()){
+            jPassword.setEchoChar((char)0);
+        }else{
+            jPassword.setEchoChar("*");
+        }*/
+    }//GEN-LAST:event_cbPasswordActionPerformed
+
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
     /**
      * @param args the command line arguments
      */
@@ -216,6 +281,10 @@ public class login extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnLogin;
+<<<<<<< HEAD
+=======
+    private javax.swing.JCheckBox cbPassword;
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

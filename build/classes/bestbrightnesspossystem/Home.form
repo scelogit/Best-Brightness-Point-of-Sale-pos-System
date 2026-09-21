@@ -6,7 +6,11 @@
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+<<<<<<< HEAD
     <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+=======
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
   </SyntheticProperties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
@@ -39,7 +43,11 @@
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
           <Color blue="33" green="0" red="0" type="rgb"/>
+=======
+          <Color blue="ff" green="99" red="33" type="rgb"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         </Property>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
@@ -52,6 +60,7 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
+<<<<<<< HEAD
                   <Group type="103" groupAlignment="1" attributes="0">
                       <Component id="btnProdutc" min="-2" pref="211" max="-2" attributes="0"/>
                       <Component id="btnProcessSales" min="-2" pref="211" max="-2" attributes="0"/>
@@ -78,6 +87,38 @@
                       <Component id="btnViewSales" min="-2" pref="211" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
+=======
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="btnProdutc" min="-2" pref="211" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="125" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="btnProductManagement" alignment="1" min="-2" pref="211" max="-2" attributes="0"/>
+                              <Component id="btnViewSales" min="-2" pref="211" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="btnSignOut" min="-2" pref="211" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="324" max="-2" attributes="0"/>
               </Group>
@@ -85,6 +126,7 @@
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
               <Group type="102" alignment="0" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
@@ -114,12 +156,42 @@
               </Group>
               <Group type="102" alignment="0" attributes="0">
                   <Component id="jPanel4" max="32767" attributes="0"/>
+=======
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                          <Component id="btnProductManagement" min="-2" pref="49" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                          <Component id="btnProdutc" min="-2" pref="59" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="btnViewSales" min="-2" pref="55" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                          <Component id="btnSignOut" min="-2" pref="47" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="jPanel4" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
+<<<<<<< HEAD
         <Component class="javax.swing.JButton" name="btnCart">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -139,6 +211,8 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCartActionPerformed"/>
           </Events>
         </Component>
+=======
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -152,12 +226,15 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnSignOut">
           <Properties>
+<<<<<<< HEAD
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="33" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
+=======
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/bestbrightnesspossystem/log-out.png"/>
             </Property>
@@ -189,6 +266,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnProductManagement">
           <Properties>
+<<<<<<< HEAD
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="33" green="0" red="0" type="rgb"/>
             </Property>
@@ -199,6 +277,12 @@
               <Image iconType="3" name="/bestbrightnesspossystem/phothos/photos/delivery.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="product management"/>
+=======
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/bestbrightnesspossystem/phothos/photos/delivery.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Product Management"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
                 <BevelBorder/>
@@ -209,6 +293,7 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnProductManagementActionPerformed"/>
           </Events>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JButton" name="btnProcessSales">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -243,6 +328,14 @@
               <Image iconType="3" name="/bestbrightnesspossystem/phothos/photos/viewing.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Product"/>
+=======
+        <Component class="javax.swing.JButton" name="btnProdutc">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/bestbrightnesspossystem/phothos/photos/viewing.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Manage Staff"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
                 <BevelBorder/>
@@ -255,12 +348,15 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnViewSales">
           <Properties>
+<<<<<<< HEAD
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="33" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
+=======
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/bestbrightnesspossystem/phothos/photos/viewing.png"/>
             </Property>
@@ -358,7 +454,11 @@
             <Container class="javax.swing.JPanel" name="jPanel5">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                   <Color blue="33" green="0" red="0" type="rgb"/>
+=======
+                  <Color blue="ff" green="99" red="33" type="rgb"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                 </Property>
               </Properties>
 
@@ -610,14 +710,24 @@
                                           <Component id="jTextField3" max="32767" attributes="0"/>
                                       </Group>
                                       <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
                                           <Component id="jButton19" alignment="0" min="-2" pref="135" max="-2" attributes="0"/>
                                           <Component id="jButton21" alignment="0" min="-2" pref="135" max="-2" attributes="0"/>
+=======
+                                          <Component id="btnCash" alignment="0" min="-2" pref="135" max="-2" attributes="0"/>
+                                          <Component id="btnEwallet" alignment="0" min="-2" pref="135" max="-2" attributes="0"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                                       </Group>
                                   </Group>
                                   <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
                                       <Component id="jButton20" max="32767" attributes="0"/>
                                       <Component id="jButton22" max="32767" attributes="0"/>
+=======
+                                      <Component id="btnCard" max="32767" attributes="0"/>
+                                      <Component id="btnVoucher" max="32767" attributes="0"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                                       <Group type="102" attributes="0">
                                           <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
@@ -670,6 +780,7 @@
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
+<<<<<<< HEAD
                               <Component id="jButton19" alignment="3" min="-2" pref="55" max="-2" attributes="0"/>
                               <Component id="jButton20" alignment="3" min="-2" pref="55" max="-2" attributes="0"/>
                           </Group>
@@ -677,6 +788,15 @@
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jButton21" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
                               <Component id="jButton22" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+=======
+                              <Component id="btnCash" alignment="3" min="-2" pref="55" max="-2" attributes="0"/>
+                              <Component id="btnCard" alignment="3" min="-2" pref="55" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btnEwallet" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                              <Component id="btnVoucher" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
@@ -762,7 +882,11 @@
                     <Property name="text" type="java.lang.String" value="Apply"/>
                   </Properties>
                 </Component>
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="jButton19">
+=======
+                <Component class="javax.swing.JButton" name="btnCash">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                       <Image iconType="3" name="/bestbrightnesspossystem/phothos/photos/money.png"/>
@@ -770,15 +894,27 @@
                     <Property name="text" type="java.lang.String" value="Cash"/>
                   </Properties>
                 </Component>
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="jButton20">
+=======
+                <Component class="javax.swing.JButton" name="btnCard">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                       <Image iconType="3" name="/bestbrightnesspossystem/phothos/photos/credit-card.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Card/tap"/>
                   </Properties>
+<<<<<<< HEAD
                 </Component>
                 <Component class="javax.swing.JButton" name="jButton21">
+=======
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCardActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnEwallet">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                       <Image iconType="3" name="/bestbrightnesspossystem/phothos/photos/wallet.png"/>
@@ -786,7 +922,11 @@
                     <Property name="text" type="java.lang.String" value="eWallet"/>
                   </Properties>
                 </Component>
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="jButton22">
+=======
+                <Component class="javax.swing.JButton" name="btnVoucher">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                       <Image iconType="3" name="/bestbrightnesspossystem/phothos/photos/coupon.png"/>
@@ -841,24 +981,40 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
                                       <Component id="jButton4" alignment="0" min="-2" pref="59" max="-2" attributes="0"/>
                                       <Component id="jButton5" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
+=======
+                                      <Component id="btnOne" alignment="0" min="-2" pref="59" max="-2" attributes="0"/>
+                                      <Component id="btnFour" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                                   </Group>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" attributes="0">
                                           <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+<<<<<<< HEAD
                                           <Component id="jButton2" min="-2" pref="59" max="-2" attributes="0"/>
+=======
+                                          <Component id="btnTwo" min="-2" pref="59" max="-2" attributes="0"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                                       </Group>
                                       <Group type="102" alignment="1" attributes="0">
                                           <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
+<<<<<<< HEAD
                                               <Component id="jButton12" max="32767" attributes="0"/>
                                               <Component id="jButton9" max="32767" attributes="0"/>
                                               <Component id="jButton6" min="-2" pref="61" max="-2" attributes="0"/>
+=======
+                                              <Component id="btnZero" max="32767" attributes="0"/>
+                                              <Component id="btnEight" max="32767" attributes="0"/>
+                                              <Component id="btnFive" min="-2" pref="61" max="-2" attributes="0"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                                           </Group>
                                       </Group>
                                   </Group>
                               </Group>
+<<<<<<< HEAD
                               <Component id="jButton8" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
                               <Component id="jButton11" alignment="0" min="-2" pref="57" max="-2" attributes="0"/>
                           </Group>
@@ -869,14 +1025,33 @@
                                   <Component id="jButton13" alignment="0" max="32767" attributes="0"/>
                                   <Component id="jButton10" alignment="0" max="32767" attributes="0"/>
                                   <Component id="jButton7" min="-2" pref="58" max="-2" attributes="0"/>
+=======
+                              <Component id="btnSeven" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
+                              <Component id="btnClear" alignment="0" min="-2" pref="57" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="btnThree" alignment="0" min="-2" pref="59" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="btnComma" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="btnNine" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="btnSix" min="-2" pref="58" max="-2" attributes="0"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                               </Group>
                           </Group>
                           <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
                               <Component id="jButton15" min="-2" max="-2" attributes="0"/>
                               <Component id="jButton14" min="-2" max="-2" attributes="0"/>
                               <Component id="jButton16" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Component id="jButton17" min="-2" max="-2" attributes="0"/>
+=======
+                              <Component id="btnDiscount" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnQuantity" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnPrice" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnDelete" min="-2" max="-2" attributes="0"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                           </Group>
                           <EmptySpace min="62" max="32767" attributes="0"/>
                       </Group>
@@ -888,6 +1063,7 @@
                           <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="1" attributes="0">
                               <Group type="103" groupAlignment="3" attributes="0">
+<<<<<<< HEAD
                                   <Component id="jButton4" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
                                   <Component id="jButton2" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
                                   <Component id="jButton3" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
@@ -914,6 +1090,34 @@
                               <Component id="jButton12" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
                               <Component id="jButton13" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
                               <Component id="jButton17" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+=======
+                                  <Component id="btnOne" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <Component id="btnTwo" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <Component id="btnThree" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="btnQuantity" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btnFour" alignment="3" min="-2" pref="39" max="-2" attributes="0"/>
+                              <Component id="btnFive" alignment="3" min="-2" pref="39" max="-2" attributes="0"/>
+                              <Component id="btnSix" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
+                              <Component id="btnDiscount" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btnSeven" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                              <Component id="btnEight" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                              <Component id="btnNine" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                              <Component id="btnPrice" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btnClear" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="btnZero" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="btnComma" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                              <Component id="btnDelete" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                           </Group>
                           <EmptySpace max="32767" attributes="0"/>
                       </Group>
@@ -921,52 +1125,92 @@
                 </DimensionLayout>
               </Layout>
               <SubComponents>
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="jButton2">
+=======
+                <Component class="javax.swing.JButton" name="btnTwo">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <Properties>
                     <Property name="text" type="java.lang.String" value="2"/>
                   </Properties>
                 </Component>
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="jButton3">
+=======
+                <Component class="javax.swing.JButton" name="btnThree">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <Properties>
                     <Property name="text" type="java.lang.String" value="3"/>
                   </Properties>
                 </Component>
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="jButton4">
+=======
+                <Component class="javax.swing.JButton" name="btnOne">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <Properties>
                     <Property name="text" type="java.lang.String" value="1"/>
                   </Properties>
                 </Component>
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="jButton5">
+=======
+                <Component class="javax.swing.JButton" name="btnFour">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <Properties>
                     <Property name="text" type="java.lang.String" value="4"/>
                   </Properties>
                 </Component>
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="jButton6">
+=======
+                <Component class="javax.swing.JButton" name="btnFive">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <Properties>
                     <Property name="text" type="java.lang.String" value="5"/>
                   </Properties>
                 </Component>
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="jButton7">
+=======
+                <Component class="javax.swing.JButton" name="btnSix">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <Properties>
                     <Property name="text" type="java.lang.String" value="6"/>
                   </Properties>
                 </Component>
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="jButton8">
+=======
+                <Component class="javax.swing.JButton" name="btnSeven">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <Properties>
                     <Property name="text" type="java.lang.String" value="7"/>
                   </Properties>
                 </Component>
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="jButton9">
+=======
+                <Component class="javax.swing.JButton" name="btnEight">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <Properties>
                     <Property name="text" type="java.lang.String" value="8"/>
                   </Properties>
                 </Component>
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="jButton10">
+=======
+                <Component class="javax.swing.JButton" name="btnNine">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <Properties>
                     <Property name="text" type="java.lang.String" value="9"/>
                   </Properties>
                 </Component>
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="jButton11">
+=======
+                <Component class="javax.swing.JButton" name="btnClear">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <Properties>
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="33" green="0" red="ff" type="rgb"/>
@@ -974,32 +1218,56 @@
                     <Property name="text" type="java.lang.String" value="clear"/>
                   </Properties>
                 </Component>
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="jButton12">
+=======
+                <Component class="javax.swing.JButton" name="btnZero">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <Properties>
                     <Property name="text" type="java.lang.String" value="0"/>
                   </Properties>
                 </Component>
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="jButton13">
+=======
+                <Component class="javax.swing.JButton" name="btnComma">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <Properties>
                     <Property name="text" type="java.lang.String" value="."/>
                   </Properties>
                 </Component>
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="jButton14">
+=======
+                <Component class="javax.swing.JButton" name="btnQuantity">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Qty x"/>
                   </Properties>
                 </Component>
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="jButton15">
+=======
+                <Component class="javax.swing.JButton" name="btnDiscount">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Disc %"/>
                   </Properties>
                 </Component>
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="jButton16">
+=======
+                <Component class="javax.swing.JButton" name="btnPrice">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Price"/>
                   </Properties>
                 </Component>
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="jButton17">
+=======
+                <Component class="javax.swing.JButton" name="btnDelete">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                       <Image iconType="3" name="/bestbrightnesspossystem/delete.png"/>

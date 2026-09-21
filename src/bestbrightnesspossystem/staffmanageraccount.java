@@ -114,8 +114,14 @@ public class staffmanageraccount extends javax.swing.JFrame {
         txtRole = new javax.swing.JComboBox<>();
 
         setBackground(new java.awt.Color(255, 255, 255));
+<<<<<<< HEAD
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 51));
+=======
+        setResizable(false);
+
+        jPanel1.setBackground(new java.awt.Color(51, 153, 255));
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         jPanel1.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bestbrightnesspossystem/adminPP_50px.jpg"))); // NOI18N

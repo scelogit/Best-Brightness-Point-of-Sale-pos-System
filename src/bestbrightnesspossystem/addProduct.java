@@ -56,9 +56,17 @@ public class addProduct extends javax.swing.JFrame {
             .addGap(0, 100, Short.MAX_VALUE)
         );
 
+<<<<<<< HEAD
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
         jPanel3.setBackground(new java.awt.Color(0, 0, 51));
+=======
+        setResizable(false);
+
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+
+        jPanel3.setBackground(new java.awt.Color(51, 153, 255));
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -89,10 +97,18 @@ public class addProduct extends javax.swing.JFrame {
 
         jButton1.setBackground(new java.awt.Color(255, 204, 51));
         jButton1.setText("Cancel");
+<<<<<<< HEAD
+=======
+        jButton1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
 
         btnSave.setBackground(new java.awt.Color(0, 0, 51));
         btnSave.setForeground(new java.awt.Color(255, 255, 255));
         btnSave.setText("Save Product");
+<<<<<<< HEAD
+=======
+        btnSave.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         btnSave.addActionListener(this::btnSaveActionPerformed);
 
         jLabel7.setText("Product ID");
@@ -113,8 +129,13 @@ public class addProduct extends javax.swing.JFrame {
                     .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtProductName)
                     .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+<<<<<<< HEAD
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(jButton1)
+=======
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(btnSave, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(43, Short.MAX_VALUE))

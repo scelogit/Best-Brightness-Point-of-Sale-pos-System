@@ -73,10 +73,18 @@ public class salesOverview extends javax.swing.JFrame {
             .addGap(0, 0, Short.MAX_VALUE)
         );
 
+<<<<<<< HEAD
         jPanel3.setBackground(new java.awt.Color(0, 0, 51));
 
         btnProcessSale.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bestbrightnesspossystem/phothos/photos/sales.png"))); // NOI18N
         btnProcessSale.setText("Process sales");
+=======
+        jPanel3.setBackground(new java.awt.Color(51, 153, 255));
+
+        btnProcessSale.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bestbrightnesspossystem/phothos/photos/sales.png"))); // NOI18N
+        btnProcessSale.setText("Process sales");
+        btnProcessSale.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         btnProcessSale.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnProcessSaleActionPerformed(evt);
@@ -85,6 +93,10 @@ public class salesOverview extends javax.swing.JFrame {
 
         btnProductMng.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bestbrightnesspossystem/phothos/photos/delivery.png"))); // NOI18N
         btnProductMng.setText("Products Management");
+<<<<<<< HEAD
+=======
+        btnProductMng.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         btnProductMng.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnProductMngActionPerformed(evt);
@@ -93,6 +105,10 @@ public class salesOverview extends javax.swing.JFrame {
 
         btnStaffManager.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bestbrightnesspossystem/phothos/photos/viewing.png"))); // NOI18N
         btnStaffManager.setText("Staff Management");
+<<<<<<< HEAD
+=======
+        btnStaffManager.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         btnStaffManager.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnStaffManagerActionPerformed(evt);
@@ -388,6 +404,10 @@ public class salesOverview extends javax.swing.JFrame {
         );
 
         pack();
+<<<<<<< HEAD
+=======
+        setLocationRelativeTo(null);
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnProcessSaleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProcessSaleActionPerformed

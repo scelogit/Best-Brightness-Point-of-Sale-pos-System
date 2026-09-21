@@ -6,7 +6,11 @@
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+<<<<<<< HEAD
     <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+=======
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
   </SyntheticProperties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
@@ -125,7 +129,11 @@
         <Container class="javax.swing.JPanel" name="jPanel3">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
               <Color blue="33" green="0" red="0" type="rgb"/>
+=======
+              <Color blue="ff" green="99" red="33" type="rgb"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
             </Property>
           </Properties>
 
@@ -134,11 +142,19 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <Component id="jButton1" min="-2" pref="176" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                       <Component id="jButton2" min="-2" pref="178" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="jButton3" min="-2" pref="209" max="-2" attributes="0"/>
+=======
+                      <Component id="btnProcessSale" min="-2" pref="176" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Component id="btnProductMng" min="-2" pref="178" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="btnStaffManager" min="-2" pref="209" max="-2" attributes="0"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                       <EmptySpace max="32767" attributes="0"/>
                       <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -152,9 +168,15 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
+<<<<<<< HEAD
                           <Component id="jButton1" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
                           <Component id="jButton2" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
                           <Component id="jButton3" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+=======
+                          <Component id="btnProcessSale" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="btnProductMng" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="btnStaffManager" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                           <Component id="jLabel21" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
@@ -164,29 +186,75 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
+<<<<<<< HEAD
             <Component class="javax.swing.JButton" name="jButton1">
+=======
+            <Component class="javax.swing.JButton" name="btnProcessSale">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/bestbrightnesspossystem/phothos/photos/sales.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Process sales"/>
+<<<<<<< HEAD
               </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="jButton2">
+=======
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                    <BevelBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnProcessSaleActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnProductMng">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/bestbrightnesspossystem/phothos/photos/delivery.png"/>
                 </Property>
+<<<<<<< HEAD
                 <Property name="text" type="java.lang.String" value="Products"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="jButton3">
+=======
+                <Property name="text" type="java.lang.String" value="Products Management"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                    <BevelBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnProductMngActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnStaffManager">
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/bestbrightnesspossystem/phothos/photos/viewing.png"/>
                 </Property>
+<<<<<<< HEAD
                 <Property name="text" type="java.lang.String" value="Sales overview"/>
               </Properties>
+=======
+                <Property name="text" type="java.lang.String" value="Staff Management"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                    <BevelBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnStaffManagerActionPerformed"/>
+              </Events>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel21">
               <Properties>

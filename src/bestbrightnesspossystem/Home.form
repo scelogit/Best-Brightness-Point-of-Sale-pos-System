@@ -6,7 +6,11 @@
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+<<<<<<< HEAD
     <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+=======
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
   </SyntheticProperties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
@@ -39,7 +43,11 @@
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
           <Color blue="33" green="0" red="0" type="rgb"/>
+=======
+          <Color blue="ff" green="99" red="33" type="rgb"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
         </Property>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
@@ -135,12 +143,15 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnSignOut">
           <Properties>
+<<<<<<< HEAD
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="33" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
+=======
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/bestbrightnesspossystem/log-out.png"/>
             </Property>
@@ -172,6 +183,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnProductManagement">
           <Properties>
+<<<<<<< HEAD
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="33" green="0" red="0" type="rgb"/>
             </Property>
@@ -182,6 +194,12 @@
               <Image iconType="3" name="/bestbrightnesspossystem/phothos/photos/delivery.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="product management"/>
+=======
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/bestbrightnesspossystem/phothos/photos/delivery.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Product Management"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
                 <BevelBorder/>
@@ -194,12 +212,15 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnProdutc">
           <Properties>
+<<<<<<< HEAD
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="33" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
+=======
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/bestbrightnesspossystem/phothos/photos/viewing.png"/>
             </Property>
@@ -216,12 +237,15 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnViewSales">
           <Properties>
+<<<<<<< HEAD
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="33" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
+=======
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/bestbrightnesspossystem/phothos/photos/viewing.png"/>
             </Property>
@@ -319,7 +343,11 @@
             <Container class="javax.swing.JPanel" name="jPanel5">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                   <Color blue="33" green="0" red="0" type="rgb"/>
+=======
+                  <Color blue="ff" green="99" red="33" type="rgb"/>
+>>>>>>> 3d1a802c916ddd5b691ed23ad84556f699b565d5
                 </Property>
               </Properties>
 
